@@ -1,3 +1,2 @@
 # Tesla-Clone
 
-# Tesla-Clone
