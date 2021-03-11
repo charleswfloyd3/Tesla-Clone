@@ -11,3 +11,6 @@
 .footer li {
 	margin-left: 1.25vw;
 }
+.footer li:hover {
+	cursor: pointer;
+}

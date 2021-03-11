@@ -1,34 +1,41 @@
 @import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
-.landingPageNav-container {
+.shopNav-container {
 	position: fixed;
 	left: 50%;
 	transform: translateX(-50%);
+	z-index: 1;
 }
-.landingPageNav {
+.shopNav {
 	background-color: transparent;
 	height: 70px;
 	width: 95vw;
 	list-style-type: none;
 	align-items: center;
 	font-family: GothamPro;
+	color: white;
+	/* background-color: black; */
 }
 .teslaLogoTxt {
 	margin-top: 3px;
 	height: 12.5px;
 }
-.navLeft {
+.verticalBar {
+	margin-left: 1vw;
+}
+.shopNavLeft {
 	float: left;
 	margin-top: 16px;
 	margin-left: -1vw;
+	display: flex;
 }
-.navCenter {
+.shopNavCenter {
 	/* border: 1px solid red; */
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	font-family: GothamPro;
 }
-.navCenter-inner {
+.shopNavCenter-inner {
 	display: flex;
 	font-size: 14.5px;
 	font-weight: 500;
@@ -36,10 +43,10 @@
 	margin-top: -17px;
 }
 
-.navCenter li {
+.shopNavCenter li {
 	margin-left: 1.42vw;
 }
-.navRight {
+.shopNavRight {
 	display: flex;
 	font-size: 14.5px;
 	font-weight: 500;
@@ -48,18 +55,18 @@
 	margin-right: -0.5vw;
 	font-family: GothamPro;
 }
-.navRight li {
+.shopNavRight li {
 }
-.tslaAccountBtn {
-	margin-left: 1.75vw;
+.tslaAccountBtn-shop {
+	margin-left: 2vw;
 }
-.hamburgerNavLanding {
+.hamburgerNavshop {
 	margin-top: -6.25px;
 	margin-left: 1vw;
 	font-weight: 900;
 	font-size: 22px;
 }
-.landingDropdownNav {
+.shopDropdownNav {
 	display: none;
 }
 @media (max-width: 1201px) {
@@ -69,19 +76,19 @@
 	.navRight {
 		display: none;
 	}
-	.landingDropdownNav {
+	.shopDropdownNav {
 		display: block;
 		float: right;
 	}
-	.hamburgerNavLandingDropdown {
+	.hamburgerNavshopDropdown {
 		font-size: 22px;
 		margin-right: 1%;
 		margin-top: 12.5px;
 	}
 }
-.landingPageNav li:hover {
+.shopNav li:hover {
 	cursor: pointer;
 }
-.navLeft image:hover {
+.shopNavLeft image:hover {
 	cursor: pointer;
 }
