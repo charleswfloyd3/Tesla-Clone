@@ -1,4 +1,5 @@
 import React from 'react'
+import { LandingPageBtns } from '../landingPageBtns/landingPageBtns'
 import LandingPageTitles from '../landingPageTitles/landingPageTitles'
 import "./solarPanels.css"
 const SolarPanels = () => {
@@ -8,6 +9,7 @@ const SolarPanels = () => {
         <div className="solarPanels-container">
             
             <LandingPageTitles product={product} subHeading={productSubHeading}/>
+            <LandingPageBtns />
         </div>
     )
 }

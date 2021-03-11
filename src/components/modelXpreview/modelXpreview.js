@@ -1,4 +1,5 @@
 import React from 'react'
+import { LandingPageBtns } from '../landingPageBtns/landingPageBtns'
 import LandingPageTitles from '../landingPageTitles/landingPageTitles'
 import "./modelXpreview.css"
 const ModelXpreview = () => {
@@ -7,6 +8,7 @@ const ModelXpreview = () => {
     return (
         <div className="modelXpreview-container">
             <LandingPageTitles product={product} subHeading={productSubHeading}/>
+            <LandingPageBtns />
         </div>
     )
 }

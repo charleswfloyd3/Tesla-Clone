@@ -13,6 +13,7 @@ const LandingPage = () => {
             <ModelSpreview />
             <ModelYpreview />
             <Model3preview /> 
+
             <ModelXpreview />
             <SolarPanels />
         </div>
