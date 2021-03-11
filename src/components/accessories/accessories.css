@@ -1,0 +1,33 @@
+.accessories-container {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("accessories.jfif");
+	/* background-color: yellow; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	overflow: hidden;
+}
+@media (max-width: 998px) {
+	.accessories-container {
+		background-image: url("accessories-mobile.jfif");
+	}
+}
+.landingPageBtn1-Accesories {
+	font-family: GothamPro;
+
+	border: 0px solid transparent;
+	border-radius: 180px;
+	outline: none;
+	background-color: rgb(20, 20, 20);
+	color: white;
+	font-size: 15px;
+	padding: 12px 90px 12px 90px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 62vh;
+}

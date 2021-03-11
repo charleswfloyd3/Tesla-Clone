@@ -4,8 +4,8 @@ export const LandingPageBtns = (props) => {
     return (
         <div className="landingPageBtns-container">
             <div className="landingPageBtns">
-                <button className="landingPageBtn1">Custom Order</button>
-                <button className="landingPageBtn2">Existing Inventory</button>
+                <button className="landingPageBtn1">{props.btn1txt}</button>
+                <button className="landingPageBtn2">{props.btn2txt}</button>
 
             </div>
         </div>
