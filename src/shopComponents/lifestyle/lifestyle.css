@@ -1,0 +1,23 @@
+@import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
+
+.lifestyle {
+	background-image: url("lifestyle.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: contain;
+	overflow: hidden;
+	border: 1px solid black;
+}
+.lifestyleTitle {
+	font-family: GothamPro;
+	font-size: 25px;
+	margin-top: 250px;
+	text-align: center;
+	margin-left: -40vw;
+}

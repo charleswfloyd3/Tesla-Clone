@@ -30,11 +30,11 @@ const LandingPageNavbar = () => {
                 <section className="navRight">
                     <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">SHOP</Link></li>
                     <li className="tslaAccountBtn">T3SLA CLONE</li>
-                    <li className="hamburgerNavLanding">&#9776;</li>
+                    <li className="hamburgerNavLanding" id="hamburgerNavLanding">&#9776;</li>
 
                 </section>
                 <section className="landingDropdownNav">
-                    <li className="hamburgerNavLandingDropdown">&#9776;</li>
+                    <li className="hamburgerNavLandingDropdown" id="hamburgerNavLandingDropdown">&#9776;</li>
 
                     </section>    
             </nav>

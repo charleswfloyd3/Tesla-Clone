@@ -79,9 +79,15 @@
 		margin-top: 12.5px;
 	}
 }
-.landingPageNav li:hover {
+/* .landingPageNav li:hover {
 	cursor: pointer;
 }
 .navLeft image:hover {
 	cursor: pointer;
 }
+.landingPageNav li:hover {
+	color: white;
+}
+#hamburgerNavLanding:hover {
+	color: black;
+} */

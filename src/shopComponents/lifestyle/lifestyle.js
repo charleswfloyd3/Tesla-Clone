@@ -3,7 +3,7 @@ import './lifestyle.css'
 const Lifestyle = () => {
     return (
         <div className="lifestyle">
-            
+            <p className="lifestyleTitle">Lifestyle</p>
         </div>
     )
 }
