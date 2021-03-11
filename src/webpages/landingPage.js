@@ -4,6 +4,7 @@ import ModelSpreview from '../components/modelSpreview/modelSpreview';
 import Model3preview from '../components/model3preview/model3preview';
 import ModelXpreview from '../components/modelXpreview/modelXpreview';
 import LandingPageNavbar from '../components/landingPageNavbar/landingPageNav';
+import SolarPanels from '../components/solarPanels/solarPanels';
 
 const LandingPage = () => {
     return (
@@ -12,7 +13,8 @@ const LandingPage = () => {
             <ModelSpreview />
             <ModelYpreview />
             <Model3preview /> 
-            {/* <ModelXpreview /> */}
+            <ModelXpreview />
+            <SolarPanels />
         </div>
     )
 }

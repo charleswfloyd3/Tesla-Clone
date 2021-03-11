@@ -1,7 +1,7 @@
 .model3preview-container {
-	height: 105vh;
+	height: 100vh;
 	width: 100vw;
-	background-image: url("model3.png");
+	background-image: url("model3.jfif");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -12,4 +12,9 @@
 	background-position: left;
 	/* background-position-x: -200px; */
 	overflow: hidden;
+}
+@media (max-width: 635px) {
+	.model3preview-container {
+		background-image: url("model3-mobile.jfif");
+	}
 }
