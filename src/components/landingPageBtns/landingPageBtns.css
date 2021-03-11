@@ -1,0 +1,35 @@
+@import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
+
+.landingPageBtns-container {
+	text-align: center;
+	margin-top: 55vh;
+}
+.landingPageBtns {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -1vw;
+}
+
+.landingPageBtn1 {
+	font-family: GothamPro;
+
+	border: 0px solid transparent;
+	border-radius: 180px;
+	outline: none;
+	background-color: rgb(42, 42, 42);
+	color: white;
+	font-size: 15px;
+	padding: 12px 74px 12px 74px;
+}
+.landingPageBtn2 {
+	font-family: GothamPro;
+
+	outline: none;
+	border: 0px solid transparent;
+	border-radius: 180px;
+	background-color: white;
+	font-size: 15px;
+	padding: 12px 50px 12px 50px;
+	margin-left: 20px;
+}

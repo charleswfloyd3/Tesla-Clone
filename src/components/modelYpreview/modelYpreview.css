@@ -1,0 +1,14 @@
+.modelYpreview-container {
+	height: 107vh;
+	width: 100vw;
+	background-image: url("modelY.jfif");
+	/* background-color: yellow; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -225px;
+	background-position: center center;
+	overflow: hidden;
+}

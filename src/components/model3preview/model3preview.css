@@ -1,0 +1,15 @@
+.model3preview-container {
+	height: 105vh;
+	width: 100vw;
+	background-image: url("model3.png");
+	/* background-color: yellow; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	/* background-position-x: -200px; */
+	overflow: hidden;
+}
