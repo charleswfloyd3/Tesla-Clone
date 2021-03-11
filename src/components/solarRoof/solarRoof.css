@@ -17,3 +17,20 @@
 		background-image: url("solarRoof-mobile.jfif");
 	}
 }
+.solarRoofpage-container {
+	height: 100%;
+	width: 100vw;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	background-position: center center;
+}
+@media (max-width: 635px) {
+	.solarRoofpage-container {
+		background-image: url("solarRoof-mobile.jfif");
+	}
+}

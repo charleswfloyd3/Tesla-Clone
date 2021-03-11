@@ -17,19 +17,19 @@ const LandingPageNavbar = () => {
                 
                 <section className="navCenter">
                     <div className="navCenter-inner">
-                        <li>MODEL S</li>
-                        <li>MODEL 3</li>
-                        <li>MODEL X</li>
-                        <li>MODEL Y</li>
-                        <li>SOLAR ROOF</li>
-                        <li>SOLAR PANELS</li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/models">MODEL S</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/model3">MODEL 3</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modelx">MODEL X</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modely">MODEL Y</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarroof">SOLAR ROOF</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarpanels">SOLAR PANELS</Link></li>
                     </div>
   
 
                 </section>
                 <section className="navRight">
                     <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">SHOP</Link></li>
-                    <li className="tslaAccountBtn">T3SLA CLONE</li>
+                    <li className="tslaAccountBtn"><a style={{"color": "inherit", "text-decoration": "none"}}href="https://github.com/charleswfloyd3/Tesla-Clone" target="_blank">TESLA CLONE</a></li>
                     <li className="hamburgerNavLanding" id="hamburgerNavLanding">&#9776;</li>
 
                 </section>

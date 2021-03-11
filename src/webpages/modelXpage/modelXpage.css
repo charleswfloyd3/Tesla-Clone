@@ -1,0 +1,19 @@
+.modelXpreview-container {
+	height: 100vh;
+	width: 100vw;
+	/* background-image: url("modelx.jfif"); */
+	/* background-color: yellow; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	overflow: hidden;
+}
+@media (max-width: 635px) {
+	.modelXpreview-container {
+		/* background-image: url("modelX-mobile.jfif"); */
+	}
+}
