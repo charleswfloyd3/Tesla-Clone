@@ -18,3 +18,23 @@
 		background-image: url("model3-mobile.jfif");
 	}
 }
+.model3page-container {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("model3page.jfif");
+	/* background-color: yellow; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	/* background-position-x: -200px; */
+	overflow: hidden;
+}
+@media (max-width: 635px) {
+	.model3pagecontainer {
+		background-image: url("model3page-mobile.jfif");
+	}
+}

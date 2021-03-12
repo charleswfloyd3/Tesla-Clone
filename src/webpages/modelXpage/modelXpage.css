@@ -17,3 +17,28 @@
 		/* background-image: url("modelX-mobile.jfif"); */
 	}
 }
+@import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
+
+.modelX-specs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: GothamPro;
+	margin-top: 60vh;
+	margin-left: -4.85vw;
+}
+.modelX-specs ul {
+	list-style-type: none;
+	margin-left: 2.25vw;
+}
+.modelX-specs li {
+	text-align: center;
+	font-size: 29px;
+}
+.modelX-specs p {
+	font-size: 12px;
+	text-align: center;
+}
+.orderNowBtn {
+}

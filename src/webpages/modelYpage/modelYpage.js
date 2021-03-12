@@ -4,7 +4,7 @@ import ProductNav from '../productNav/productNav'
 const ModelYpage = () => {
 
     return (
-        <div className="modelYpreview-container">
+        <div className="modelYpage-container">
             <ProductNav />
         </div>
     )

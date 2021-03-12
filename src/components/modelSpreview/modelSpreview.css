@@ -19,6 +19,26 @@
 		background-image: url("modelS-mobile.jfif");
 	}
 }
+.modelSpage-container {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("modelSpage.jfif");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	z-index: 10;
+	overflow: hidden;
+	height: 100vh;
+}
+@media (max-width: 635px) {
+	.modelSpage-container {
+		background-image: url("modelSpage-mobile.jfif");
+	}
+}
 .downArrow {
 	margin: auto;
 	display: block;

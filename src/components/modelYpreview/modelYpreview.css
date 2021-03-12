@@ -18,3 +18,23 @@
 		background-image: url("modelY-mobile.jfif");
 	}
 }
+.modelYpage-container {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("modelYpage.jfif");
+	/* background-color: yellow; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -225px;
+
+	background-position: center center;
+	overflow: hidden;
+}
+@media (max-width: 635px) {
+	.modelYpage-container {
+		background-image: url("modelYpage-mobile.jfif");
+	}
+}

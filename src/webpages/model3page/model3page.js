@@ -4,7 +4,7 @@ import ProductNav from '../productNav/productNav'
 const Model3page = () => {
 
     return (
-        <div className="model3preview-container">
+        <div className="model3page-container">
             <ProductNav />
         </div>
     )
