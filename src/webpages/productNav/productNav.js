@@ -27,7 +27,7 @@ const ProductNav = () => {
                 </section>
                 <section className="navRight">
                     <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">SHOP</Link></li>
-                    <li className="tslaAccountBtn"><a style={{"color": "inherit", "text-decoration": "none"}}href="https://github.com/charleswfloyd3/Tesla-Clone" target="_blank">TESLA CLONE</a></li>
+                    <li className="tslaAccountBtn"><a style={{"color": "inherit", "text-decoration": "none"}}href="https://github.com/charleswfloyd3/Tesla-Clone" target="_blank" rel="noreferrer">TESLA CLONE</a></li>
                     <li className="hamburgerNavLanding" id="hamburgerNavLanding">&#9776;</li>
 
                 </section>
