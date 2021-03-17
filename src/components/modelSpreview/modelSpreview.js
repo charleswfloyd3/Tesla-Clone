@@ -5,7 +5,8 @@ import "./modelSpreview.css"
 const ModelSpreview = (props) => {
 
     let product = "Model S"
-    let productSubHeading = "Order Online for Touchless Delivery"
+    let productSubHeading = "Tesla Clone built by Charles Floyd"
+    // let productSubHeading = "Order Online for Touchless Delivery"
     let btn1txt = "CUSTOM ORDER"
     let btn2txt = "EXISTING INVENTORY"
     return (

@@ -6,11 +6,13 @@ const inititalState = {
     solarRoofBtnCounter: 0,
     solarPanelsBtnCounter: 0
 };
+//reducers
 
 const rootReducer = (state = inititalState, action) =>{
 
     switch(action.type){
         case "S_BTN":
+            
             return state.modelSbtnCounter + 1
         case "3_BTN":
             return state.model3btnCounter + 1
@@ -24,6 +26,28 @@ const rootReducer = (state = inititalState, action) =>{
 
 };
 
+//actions
+
+const sbtn = {
+  type: "S_BTN",
+
+}
+
+
+const ebtn = {
+  type: "3_BTN",
+    
+}
+
+const xbtn = {
+  type: "X_BTN",
+    
+}
+
+const ybtn = {
+  type: "Y_BTN",
+    
+}
 
 export default rootReducer;
 

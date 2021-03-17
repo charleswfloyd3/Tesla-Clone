@@ -1,11 +1,16 @@
 import React from 'react'
 import "./productNav.css"
 import { Link} from 'react-router-dom';
-
+import {useDispatch} from 'react-redux'
+import {useSelector} from 'react-redux'
 
 const ProductNav = () => {
-
-
+    const modelSCounter = useSelector(state => state)
+    const dispatch = useDispatch()
+    const modelSbuttonProductNav = () =>{
+    console.log(modelSCounter.modelSbtnCounter)
+    dispatch({type: "S_BTN"})
+    }
     return (
         <div className="productNav-container">
             <nav className="productNav">
@@ -15,7 +20,7 @@ const ProductNav = () => {
                 
                 <section className="navCenter">
                     <div className="navCenter-inner">
-                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/models">MODEL S</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/models" onClick={modelSbuttonProductNav}>MODEL S</Link></li>
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/model3">MODEL 3</Link></li>
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modelx">MODEL X</Link></li>
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modely">MODEL Y</Link></li>
