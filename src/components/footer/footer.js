@@ -14,6 +14,12 @@ const Footer = () => {
                 <li>Locations</li>
 
             </div>
+            <div className="footer-mobile">
+                <li>T3sla 2021</li>
+                <li>Privacy & Legal</li>
+                <li>News</li>
+
+            </div>            
         </div>
     )
 }

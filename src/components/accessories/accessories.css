@@ -31,3 +31,8 @@
 	display: block;
 	margin-top: 62vh;
 }
+@media (max-width: 582px) {
+	.landingPageBtn1-Accesories {
+		/* width: 80vw; */
+	}
+}

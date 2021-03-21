@@ -37,3 +37,17 @@
 button:hover {
 	cursor: pointer;
 }
+@media (max-width: 700px) {
+	.landingPageBtns {
+		display: block;
+		margin-top: -10%;
+	}
+	.landingPageBtn1 {
+		width: 80vw;
+	}
+	.landingPageBtn2 {
+		width: 80vw;
+		margin-left: -0.25vw;
+		margin-top: 14px;
+	}
+}
