@@ -150,18 +150,11 @@
 .burgerMenu-container {
 	margin-top: 1.75px;
 	margin-left: 1.25vw;
+	z-index: 400;
 }
 .sidebarMenu {
+	list-style: none;
 	display: none;
-
-	font-family: GothamPro;
-	float: right;
-	z-index: 100;
-	background-color: white;
-	height: 100vh;
-	margin-left: 70vw;
-	width: 300px;
-	margin-top: -37px;
 }
 .sidebarMenu li {
 	border-bottom: 1px solid gray;
@@ -173,17 +166,34 @@
 }
 #firstItemSidebar {
 	z-index: 100;
-	padding-top: 200px;
-	background-color: gray;
+	padding-top: 50px;
 }
 .sidebarMenuVisible {
+	position: relative;
 	display: block;
 	font-family: GothamPro;
 	float: right;
 	z-index: 100;
 	background-color: white;
-	height: 100vh;
-	margin-left: 70vw;
-	width: 300px;
+	height: 10000%;
+	width: 346px;
 	margin-top: -37px;
+	list-style: none;
+	margin-right: -18%;
+}
+
+.sidebarMenuVisible li {
+	border-bottom: 0.01px solid rgb(200, 200, 200);
+	padding-bottom: 28px;
+	margin-top: 28px;
+	width: 76%;
+	margin-left: 1vw;
+	line-height: 0.15em;
+	padding-left: 14px;
+	font-size: 14.5px;
+}
+@media (max-width: 1200px) {
+	.sidebarMenuVisible {
+		width: 420px;
+	}
 }

@@ -51,7 +51,9 @@ const LandingPageNavbar = () => {
                 <section className="navRight">
                     <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">SHOP</Link></li>
                     <li className="tslaAccountBtn"><a style={{"color": "inherit", "text-decoration": "none"}}href="https://github.com/charleswfloyd3/Tesla-Clone" target="_blank" rel="noreferrer">TESLA CLONE</a></li>
-                        <li className="burgerMenu-container"  onClick={() =>{if(mobileHamburgerStatus === "close"){setmobileHamburgerStatus('open')}else{setmobileHamburgerStatus('close')}}}>
+                        <li className="burgerMenu-container"  onClick={() =>{if(mobileHamburgerStatus === "close"){setmobileHamburgerStatus('open')
+                    setsidebarMenu('sidebarMenuVisible')}else{setmobileHamburgerStatus('close')
+                    setsidebarMenu("sidebarMenu")}}}>
                             <i className={mobileHamburgerStatus}></i>
                             <i className={mobileHamburgerStatus}></i>
                             <i className={mobileHamburgerStatus}></i>
