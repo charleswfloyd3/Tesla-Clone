@@ -9,7 +9,8 @@ export const ShopPage = () => {
             <ShopNav />
             <ShopHome />
             <div className="shopPageProducts">
-            <Lifestyle />
+            {/* <Lifestyle /> */}
+            
             </div>
         </div>
     )

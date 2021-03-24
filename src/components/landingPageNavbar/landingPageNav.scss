@@ -168,6 +168,20 @@
 	z-index: 100;
 	padding-top: 50px;
 }
+@keyframes rightIn {
+	0% {
+		opacity: 0;
+		transform: translateX(5rem);
+	}
+	80% {
+		transform: translateX(-0.5rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
 .sidebarMenuVisible {
 	position: relative;
 	display: block;
@@ -180,6 +194,7 @@
 	margin-top: -37px;
 	list-style: none;
 	margin-right: -18%;
+	animation: rightIn 0.5s ease-out;
 }
 
 .sidebarMenuVisible li {
