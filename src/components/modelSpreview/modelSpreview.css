@@ -16,14 +16,14 @@
 }
 @media (max-width: 635px) {
 	.modelSpreview-container {
-		background-image: url("modelS-mobile.jfif");
+		background-image: url("modelS-mobile.jpg");
 	}
 }
 
 .modelSpage-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("modelSpage.jfif");
+	background-image: url("modelSpage.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -37,7 +37,7 @@
 }
 @media (max-width: 635px) {
 	.modelSpage-container {
-		background-image: url("modelSpage-mobile.jfif");
+		background-image: url("modelSpage-mobile.jpg");
 	}
 }
 .downArrow {
