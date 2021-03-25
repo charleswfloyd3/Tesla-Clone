@@ -42,7 +42,7 @@ const LandingPageNavbar = () => {
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/model3" ref={product2} onClick={keepTrackOfProductClicks}>MODEL 3</Link></li>
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modelx" ref={product3} onClick={keepTrackOfProductClicks}>MODEL X</Link></li>
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modely"  ref={product4} onClick={keepTrackOfProductClicks}>MODEL Y</Link></li>
-                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarroof">SOLAR ROOF</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarpanels">SOLAR ROOF</Link></li>
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarpanels">SOLAR PANELS</Link></li>
                     </div>
   

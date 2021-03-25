@@ -24,7 +24,7 @@ const ProductNav = () => {
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/model3">MODEL 3</Link></li>
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modelx">MODEL X</Link></li>
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modely">MODEL Y</Link></li>
-                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarroof">SOLAR ROOF</Link></li>
+                        {/* <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarroof">SOLAR ROOF</Link></li> */}
                         <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarpanels">SOLAR PANELS</Link></li>
                     </div>
   
