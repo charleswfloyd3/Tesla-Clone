@@ -1,7 +1,7 @@
 .modelYpreview-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("modelY.jfif");
+	background-image: url("modelY.jpg");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -15,13 +15,13 @@
 }
 @media (max-width: 635px) {
 	.modelYpreview-container {
-		background-image: url("modelY-mobile.jfif");
+		background-image: url("modelY-mobile.jpg");
 	}
 }
 .modelYpage-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("modelYpage.jfif");
+	background-image: url("modelYpage.jpg");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -35,6 +35,6 @@
 }
 @media (max-width: 635px) {
 	.modelYpage-container {
-		background-image: url("modelYpage-mobile.jfif");
+		background-image: url("modelYpage-mobile.jpg");
 	}
 }
