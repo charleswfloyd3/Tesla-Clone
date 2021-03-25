@@ -1,7 +1,7 @@
 .solarRoof-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("solarRoof.jfif");
+	background-image: url("solarRoof.jpg");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -14,7 +14,7 @@
 }
 @media (max-width: 635px) {
 	.solarRoof-container {
-		background-image: url("solarRoof-mobile.jfif");
+		background-image: url("solarRoof-mobile.jpg");
 	}
 }
 .solarRoofpage-container {
@@ -31,6 +31,6 @@
 }
 @media (max-width: 635px) {
 	.solarRoofpage-container {
-		background-image: url("solarRoof-mobile.jfif");
+		background-image: url("solarRoof-mobile.jpg");
 	}
 }

@@ -1,7 +1,7 @@
 .solarPanels-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("solarPanels.jfif");
+	background-image: url("solarPanels.jpg");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -14,6 +14,6 @@
 }
 @media (max-width: 635px) {
 	.solarPanels-container {
-		background-image: url("solarPanels-mobile.jfif");
+		background-image: url("solarPanels-mobile.jpg");
 	}
 }
