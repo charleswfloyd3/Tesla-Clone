@@ -1,7 +1,7 @@
 .accessories-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("accessories.jfif");
+	background-image: url("accessories.jpg");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -14,7 +14,7 @@
 }
 @media (max-width: 998px) {
 	.accessories-container {
-		background-image: url("accessories-mobile.jfif");
+		background-image: url("accessories-mobile.jpg");
 	}
 }
 .landingPageBtn1-Accesories {
