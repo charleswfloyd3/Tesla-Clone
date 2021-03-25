@@ -1,7 +1,7 @@
 .modelXpreview-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("modelx.jfif");
+	background-image: url("modelx.jpg");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -14,6 +14,6 @@
 }
 @media (max-width: 635px) {
 	.modelXpreview-container {
-		background-image: url("modelX-mobile.jfif");
+		background-image: url("modelX-mobile.jpg");
 	}
 }

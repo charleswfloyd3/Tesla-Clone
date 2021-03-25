@@ -1,7 +1,7 @@
 .model3preview-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("model3.jfif");
+	background-image: url("model3.jpg");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -15,13 +15,13 @@
 }
 @media (max-width: 635px) {
 	.model3preview-container {
-		background-image: url("model3-mobile.jfif");
+		background-image: url("model3-mobile.jpg");
 	}
 }
 .model3page-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("model3page.jfif");
+	background-image: url("model3page.jpg");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -35,6 +35,6 @@
 }
 @media (max-width: 635px) {
 	.model3pagecontainer {
-		background-image: url("model3page-mobile.jfif");
+		background-image: url("model3page-mobile.jpg");
 	}
 }
