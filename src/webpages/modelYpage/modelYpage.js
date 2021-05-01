@@ -4,7 +4,7 @@ import './modelYpage.css'
 import LandingPageTitlesWhite from '../../components/landingPageTitlesWhite/landingPageTitlesWhite'
 
 const ModelYpage = () => {
-    let product = "Model 3"
+    let product = "Model Y"
     let productSubHeading = "Plaid"
     return (
         <div className="modelYpage-container">
