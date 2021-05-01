@@ -31,8 +31,8 @@ const ShopNav = () => {
                 </section>
                 <section className="shopNavRight">
                     <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">SIGN IN</Link></li>
-                    <li className="hamburgerNavLanding">&#9776;</li>
-                    <li className="hamburgerNavLanding">&#9776;</li>
+                    <li className="hamburgerNavLanding"><img src="images/searchIcon.png" className="searchIcon" alt="search"></img></li>
+                    <li className="hamburgerNavLanding"><img src="images/cart.png" className="searchIcon" alt="search"></img></li>
 
                 </section>
                 <section className="shopDropdownNav">

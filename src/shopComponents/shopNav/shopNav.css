@@ -92,3 +92,8 @@
 .shopNavLeft image:hover {
 	cursor: pointer;
 }
+.searchIcon {
+	margin-top: -1px;
+	height: 30.5px;
+	width: 30px;
+}

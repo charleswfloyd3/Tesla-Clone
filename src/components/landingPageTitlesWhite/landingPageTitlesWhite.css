@@ -1,0 +1,33 @@
+@import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
+.landingPageTitles {
+	text-align: center;
+	margin-top: 130px;
+}
+.landingPageTitles-inner {
+	/* margin-left: -1vw; */
+}
+.productTitle {
+	color: white;
+	font-size: 41px;
+	font-weight: 400;
+	font-family: GothamPro;
+	height: fit-content;
+}
+
+.productSubHeading {
+	color: rgb(82, 82, 82);
+
+	margin-top: -32px;
+	font-weight: 300;
+	font-size: 14px;
+	font-family: GothamPro;
+}
+.productSubHeading-S {
+	color: rgb(0, 0, 0);
+
+	margin-top: -32px;
+	font-weight: 100;
+	font-size: 17px;
+	font-family: GothamPro;
+	text-align: center;
+}

@@ -1,21 +1,23 @@
-.modelY-specs {
+@import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
+
+.solarPanels-specs {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: white;
 	font-family: GothamPro;
-	margin-top: 58vh;
+	margin-top: 6vh;
 	margin-left: -4.85vw;
 }
-.modelY-specs ul {
+.solarPanels-specs ul {
 	list-style-type: none;
 	margin-left: 2.25vw;
 }
-.modelY-specs li {
+.solarPanels-specs li {
 	text-align: center;
-	font-size: 29px;
+	font-size: 20px;
 }
-.modelY-specs p {
+.solarPanels-specs p {
 	font-size: 12px;
 	text-align: center;
 }
@@ -29,4 +31,9 @@
 .orderNowBtn:hover {
 	background-color: white;
 	color: black;
+}
+.subHeadingSolar {
+	text-align: center;
+	margin-top: 54vh;
+	color: white;
 }
