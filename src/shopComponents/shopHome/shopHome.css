@@ -8,7 +8,7 @@
 	-o-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	overflow: hidden;
 }
 /* @media (max-width: 635px) {
@@ -34,7 +34,7 @@
 	-o-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	overflow: hidden;
 }
 /* @media (max-width: 635px) {
