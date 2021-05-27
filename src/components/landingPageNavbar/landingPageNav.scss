@@ -15,6 +15,7 @@
 .teslaLogoTxt {
 	margin-top: 3px;
 	height: 12.5px;
+	cursor: pointer;
 }
 .navLeft {
 	float: left;
@@ -86,6 +87,7 @@
 	flex-direction: column;
 	margin-top: 1.75px;
 	margin-left: 1.25vw;
+	cursor: pointer;
 
 	i {
 		background-color: black;
@@ -206,6 +208,7 @@
 	line-height: 0.15em;
 	padding-left: 14px;
 	font-size: 14.5px;
+	cursor: pointer;
 }
 @media (max-width: 1200px) {
 	.sidebarMenuVisible {
