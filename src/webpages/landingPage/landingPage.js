@@ -9,19 +9,35 @@ import SolarPanels from '../../components/solarPanels/solarPanels';
 import Accessories from '../../components/accessories/accessories';
 import SolarRoof from '../../components/solarRoof/solarRoof';
 import Footer from '../../components/footer/footer';
+import LazyLoad from 'react-lazyload';
 
 const LandingPage = () => {
     return (
         <div className="landingPage">
             <LandingPageNavbar />
             <ModelSpreview />
-            <ModelYpreview />
-            <Model3preview /> 
-            <ModelXpreview />
-            <SolarPanels />
-            <SolarRoof />
-            <Accessories />
-            <Footer />
+            <LazyLoad>
+                <ModelYpreview />
+            </LazyLoad>
+            <LazyLoad>
+                <Model3preview />
+            </LazyLoad> 
+            <LazyLoad>
+                <ModelXpreview />
+            </LazyLoad>
+            <LazyLoad>
+                <SolarPanels />
+            </LazyLoad>
+            <LazyLoad>
+                <SolarRoof />
+            </LazyLoad>
+            <LazyLoad>
+                <Accessories />
+            </LazyLoad>
+            <LazyLoad>
+                <Footer />
+            </LazyLoad>
+
         </div>
     )
 }
