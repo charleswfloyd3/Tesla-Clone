@@ -65,35 +65,21 @@
 .landingDropdownNav {
 	display: none;
 }
-@media (max-width: 1201px) {
-	.navCenter {
-		display: none;
-	}
-	.navRight {
-		display: none;
-	}
-	.landingDropdownNav {
-		display: block;
-		float: right;
-	}
-	.hamburgerNavLandingDropdown {
-		font-size: 22px;
-		margin-right: 1%;
-		margin-top: 12.5px;
-	}
-}
+
 .burgerMenu-container {
 	display: flex;
 	flex-direction: column;
-	margin-top: 1.75px;
 	margin-left: 1.25vw;
+	margin-right: 1.65px;
+	margin-top: 1px;
 	cursor: pointer;
+	z-index: 400;
 
 	i {
 		background-color: black;
 		width: 17px;
-		height: 2px;
-		margin: 1.65px;
+		height: 2.2px;
+		margin-bottom: 3px;
 		border-radius: 2px;
 		transition: all ease 0.5s;
 	}
@@ -120,7 +106,7 @@
 .burgerMenu-container-mobile {
 	display: flex;
 	flex-direction: column;
-	margin-top: 18px;
+	margin-top: 17.5px;
 	margin-right: 8px;
 
 	i {
@@ -150,11 +136,7 @@
 		transform: rotate(0) translateY(0);
 	}
 }
-.burgerMenu-container {
-	margin-top: 1.75px;
-	margin-left: 1.25vw;
-	z-index: 400;
-}
+
 .sidebarMenu {
 	list-style: none;
 	display: none;
@@ -211,7 +193,23 @@
 	font-size: 14.5px;
 	cursor: pointer;
 }
-@media (max-width: 1200px) {
+
+@media (max-width: 1201px) {
+	.navCenter {
+		display: none;
+	}
+	.navRight {
+		display: none;
+	}
+	.landingDropdownNav {
+		display: block;
+		float: right;
+	}
+	.hamburgerNavLandingDropdown {
+		font-size: 22px;
+		margin-right: 1%;
+		margin-top: 12.5px;
+	}
 	.sidebarMenuVisible {
 		width: 420px;
 	}

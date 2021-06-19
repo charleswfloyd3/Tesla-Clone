@@ -11,6 +11,7 @@
 	background-size: cover;
 	background-position: left;
 	overflow: hidden;
+	scroll-snap-align: start;
 }
 @media (max-width: 998px) {
 	.accessories-container {
@@ -30,6 +31,7 @@
 	margin: 0 auto;
 	display: block;
 	margin-top: 62vh;
+	scroll-snap-align: start;
 }
 @media (max-width: 582px) {
 	.landingPageBtn1-Accesories {

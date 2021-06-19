@@ -12,6 +12,7 @@
 
 	background-position: center center;
 	overflow: hidden;
+	scroll-snap-align: start;
 }
 @media (max-width: 635px) {
 	.modelYpreview-container {

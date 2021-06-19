@@ -12,6 +12,7 @@
 	background-position: left;
 	/* background-position-x: -200px; */
 	overflow: hidden;
+	scroll-snap-align: start;
 }
 @media (max-width: 635px) {
 	.model3preview-container {
