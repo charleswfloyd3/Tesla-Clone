@@ -178,7 +178,8 @@
 	width: 346px;
 	margin-top: -37px;
 	list-style: none;
-	margin-right: -26px;
+	position: absolute;
+	right: -3vw;
 	animation: rightIn 0.5s ease-out;
 }
 
@@ -192,6 +193,7 @@
 	padding-left: 14px;
 	font-size: 14.5px;
 	cursor: pointer;
+	z-index: 100;
 }
 
 @media (max-width: 1201px) {
@@ -199,19 +201,32 @@
 		display: none;
 	}
 	.navRight {
-		display: none;
+		// display: none;
+		background-color: rebeccapurple;
 	}
 	.landingDropdownNav {
 		display: block;
 		float: right;
+		z-index: 100;
 	}
-	.hamburgerNavLandingDropdown {
-		font-size: 22px;
-		margin-right: 1%;
-		margin-top: 12.5px;
-	}
+	// .hamburgerNavLandingDropdown {
+	// 	font-size: 22px;
+	// 	margin-right: 1%;
+	// 	margin-top: 12.5px;
+	// 	z-index: 2;
+	// 	position: absolute;
+	// }
 	.sidebarMenuVisible {
 		width: 420px;
-		margin-right: -42px;
+		right: -4vw;
+		z-index: 0;
+		// display: none;
+	}
+
+	.sidebarMenuVisible li {
+		z-index: 0;
+	}
+	.burgerMenu-container-mobile {
+		z-index: 100;
 	}
 }
