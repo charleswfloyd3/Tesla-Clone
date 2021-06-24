@@ -15,7 +15,7 @@ const ShopNav = () => {
                 <section className="shopNavLeft">
                     <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/"><img src="images/teslawhite.png" className="teslaLogoTxt" alt="T E S L A"></img></Link>
                     <li className="verticalBar"> | </li>
-                    <li className="verticalBar" onClick={RefreshPage}>Shop</li>
+                    <li className="shop" onClick={RefreshPage}>SHOP</li>
 
                 </section>
                 

@@ -29,11 +29,16 @@
 	margin-top: -12px;
 }
 .orderNowBtn:hover {
-	background-color: white;
 	color: black;
+	opacity: 0.7;
+	cursor: pointer;
 }
 .subHeadingSolar {
 	text-align: center;
-	margin-top: 54vh;
-	color: white;
+	color: black;
+	padding-bottom: 440px;
+	font-size: 14.75px;
+	font-weight: 300;
+	margin-top: 44px;
+	opacity: 0.9;
 }

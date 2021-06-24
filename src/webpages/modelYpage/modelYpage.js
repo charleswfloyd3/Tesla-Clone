@@ -6,10 +6,12 @@ import LandingPageTitlesWhite from '../../components/landingPageTitlesWhite/land
 const ModelYpage = () => {
     let product = "Model Y"
     let productSubHeading = "Plaid"
+    let navLinkColor = 'white'
+
     return (
         <div className="modelYpage-container">
-            <ProductNav />
-            <LandingPageTitlesWhite product={product} productSubHeading={productSubHeading} />
+            <ProductNav color={navLinkColor}/>
+            <LandingPageTitlesWhite product={product} productSubHeading={productSubHeading} color={navLinkColor}/>
 
               <ul className="modelY-specs">
                 <ul>

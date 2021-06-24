@@ -86,9 +86,3 @@
 .navLeft image:hover {
 	cursor: pointer;
 }
-.productNav li:hover {
-	color: white;
-}
-#hamburgerNavLanding:hover {
-	color: black;
-}

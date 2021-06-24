@@ -11,7 +11,7 @@ const SolarPanelsPage = () => {
         <div className="solarPanels-container">
             <ProductNav />
             <LandingPageTitles product={product} productSubHeading={productSubHeading} />
-        <p className="subHeadingSolar">Lowest Cost in America - Money-back guarantee</p>
+        <p className="subHeadingSolar">Lowest Cost Solar Panels in America - Money-back guarantee</p>
               <ul className="solarPanels-specs">
                 <ul>
                     <li>Convert Sunlight</li>

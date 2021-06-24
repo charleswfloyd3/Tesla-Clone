@@ -38,19 +38,19 @@ const LandingPageNavbar = () => {
                 
                 <section className="navCenter">
                     <div className="navCenter-inner">
-                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/models"  ref={product1} onClick={keepTrackOfProductClicks}>MODEL S</Link ></li>
-                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/model3" ref={product2} onClick={keepTrackOfProductClicks}>MODEL 3</Link></li>
-                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modelx" ref={product3} onClick={keepTrackOfProductClicks}>MODEL X</Link></li>
-                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modely"  ref={product4} onClick={keepTrackOfProductClicks}>MODEL Y</Link></li>
-                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarpanels">SOLAR ROOF</Link></li>
-                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarpanels">SOLAR PANELS</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/models"  ref={product1} onClick={keepTrackOfProductClicks}>Model S</Link ></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/model3" ref={product2} onClick={keepTrackOfProductClicks}>Model 3</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modelx" ref={product3} onClick={keepTrackOfProductClicks}>Model X</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/modely"  ref={product4} onClick={keepTrackOfProductClicks}>Model Y</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarpanels">Solar Roof</Link></li>
+                        <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/solarpanels">Solar Panels</Link></li>
                     </div>
   
 
                 </section>
                 <section className="navRight">
-                    <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">SHOP</Link></li>
-                    <li className="tslaAccountBtn"><a style={{"color": "inherit", "text-decoration": "none"}}href="https://github.com/charleswfloyd3/Tesla-Clone" target="_blank" rel="noreferrer">TESLA CLONE</a></li>
+                    <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">Shop</Link></li>
+                    <li className="tslaAccountBtn"><a style={{"color": "inherit", "text-decoration": "none"}}href="https://github.com/charleswfloyd3/Tesla-Clone" target="_blank" rel="noreferrer">Telsa Clone</a></li>
                         <li className="burgerMenu-container"  onClick={() =>{if(mobileHamburgerStatus === "close"){setmobileHamburgerStatus('open')
                     setsidebarMenu('sidebarMenuVisible')}else{setmobileHamburgerStatus('close')
                     setsidebarMenu("sidebarMenu")}}}>

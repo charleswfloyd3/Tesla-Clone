@@ -22,6 +22,7 @@
 	color: white;
 	font-size: 15px;
 	padding: 12px 74px 12px 74px;
+	opacity: 0.75;
 }
 .landingPageBtn2 {
 	font-family: GothamPro;
@@ -33,6 +34,7 @@
 	font-size: 15px;
 	padding: 12px 50px 12px 50px;
 	margin-left: 20px;
+	opacity: 0.75;
 }
 button:hover {
 	cursor: pointer;

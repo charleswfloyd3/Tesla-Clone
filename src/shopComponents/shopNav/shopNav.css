@@ -12,14 +12,17 @@
 	list-style-type: none;
 	align-items: center;
 	font-family: GothamPro;
-	color: white;
+	color: rgb(219, 219, 219);
 	/* background-color: black; */
 }
 .teslaLogoTxt {
-	margin-top: 3px;
-	height: 12.5px;
 }
 .verticalBar {
+	margin-left: 1.2vw;
+	font-size: 15px;
+	padding-top: 0.15px;
+}
+.shop {
 	margin-left: 1vw;
 }
 .shopNavLeft {
