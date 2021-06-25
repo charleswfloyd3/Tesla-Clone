@@ -14,7 +14,7 @@
 	overflow: hidden;
 	scroll-snap-align: start;
 }
-@media (max-width: 635px) {
+@media (max-width: 747px) {
 	.modelYpreview-container {
 		background-image: url("modelY-mobile.jpg");
 	}
@@ -34,7 +34,7 @@
 	background-position: center center;
 	overflow: hidden;
 }
-@media (max-width: 635px) {
+@media (max-width: 747px) {
 	.modelYpage-container {
 		background-image: url("modelYpage-mobile.jpg");
 	}

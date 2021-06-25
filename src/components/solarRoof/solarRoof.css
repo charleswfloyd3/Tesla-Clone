@@ -9,11 +9,11 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: left;
+	background-position: center center;
 	overflow: hidden;
 	scroll-snap-align: start;
 }
-@media (max-width: 635px) {
+@media (max-width: 747px) {
 	.solarRoof-container {
 		background-image: url("solarRoof-mobile.jpg");
 	}
@@ -30,7 +30,7 @@
 	overflow: hidden;
 	background-position: center center;
 }
-@media (max-width: 635px) {
+@media (max-width: 747px) {
 	.solarRoofpage-container {
 		background-image: url("solarRoof-mobile.jpg");
 	}

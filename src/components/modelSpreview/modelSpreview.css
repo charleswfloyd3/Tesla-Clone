@@ -15,7 +15,7 @@
 	height: 100vh;
 	scroll-snap-align: start;
 }
-@media (max-width: 635px) {
+@media (max-width: 747px) {
 	.modelSpreview-container {
 		background-image: url("modelS-mobile.jpg");
 	}
@@ -36,7 +36,7 @@
 	overflow: hidden;
 	height: 100vh;
 }
-@media (max-width: 635px) {
+@media (max-width: 747px) {
 	.modelSpage-container {
 		background-image: url("modelSpage-mobile.jpg");
 	}

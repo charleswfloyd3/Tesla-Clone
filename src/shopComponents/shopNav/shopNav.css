@@ -12,7 +12,7 @@
 	list-style-type: none;
 	align-items: center;
 	font-family: GothamPro;
-	color: rgb(219, 219, 219);
+	color: rgb(228, 228, 228);
 	/* background-color: black; */
 }
 .teslaLogoTxt {
@@ -72,16 +72,44 @@
 .shopDropdownNav {
 	display: none;
 }
+
+.shopNav li:hover {
+	cursor: pointer;
+}
+.shopNavLeft image:hover {
+	cursor: pointer;
+}
+.searchIcon,
+.cartIcon {
+	margin-top: -1px;
+	height: 30.5px;
+	width: 30px;
+}
 @media (max-width: 1201px) {
-	.navCenter {
+	.shopNavCenter-inner {
+		display: none;
+		background-color: rebeccapurple;
+	}
+	.signin {
 		display: none;
 	}
-	.navRight {
+	.searchIcon {
 		display: none;
 	}
 	.shopDropdownNav {
 		display: block;
-		float: right;
+		right: 4px;
+		top: -4px;
+		position: absolute;
+	}
+	.cartIcon {
+		display: block;
+		right: 40px;
+		top: 10px;
+		position: absolute;
+		margin-top: 1px;
+		height: 26.5px;
+		width: 26px;
 	}
 	.hamburgerNavshopDropdown {
 		font-size: 22px;
@@ -89,14 +117,26 @@
 		margin-top: 12.5px;
 	}
 }
-.shopNav li:hover {
-	cursor: pointer;
+.hamburgerNavshopDropdown {
+	display: flex;
+	flex-direction: column;
+	margin-top: 23px;
+	margin-right: 8px;
 }
-.shopNavLeft image:hover {
-	cursor: pointer;
+i {
+	background-color: rgb(228, 228, 228);
+	width: 17px;
+	height: 1.7px;
+	margin-bottom: 3px;
+	border-radius: 2px;
+	transition: all ease 0.5s;
 }
-.searchIcon {
-	margin-top: -1px;
-	height: 30.5px;
-	width: 30px;
+.close:nth-child(1) {
+	transform: rotate(0) translateY(0);
+}
+.close:nth-child(2) {
+	opacity: 1;
+}
+.close:nth-child(3) {
+	transform: rotate(0) translateY(0);
 }

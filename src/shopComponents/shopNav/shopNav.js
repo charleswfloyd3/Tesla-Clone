@@ -7,8 +7,6 @@ const ShopNav = () => {
     const RefreshPage = () =>{
         window.location.reload(false)
     }
-
-
     return (
         <div className="shopNav-container">
             <nav className="shopNav">
@@ -26,22 +24,23 @@ const ShopNav = () => {
                         <li>APPAREL</li>
                         <li>LIFESTYLE</li>
                     </div>
-  
 
                 </section>
                 <section className="shopNavRight">
-                    <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">SIGN IN</Link></li>
+                    <li className="signin"><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">SIGN IN</Link></li>
                     <li className="hamburgerNavLanding"><img src="images/searchIcon.png" className="searchIcon" alt="search"></img></li>
-                    <li className="hamburgerNavLanding"><img src="images/cart.png" className="searchIcon" alt="search"></img></li>
+                    <li className="hamburgerNavLanding"><img src="images/cart.png" className="cartIcon" alt="search"></img></li>
 
                 </section>
                 <section className="shopDropdownNav">
-                    <li className="hamburgerNavshopDropdown">&#9776;</li>
-
-                    </section>    
+                    <li className="hamburgerNavshopDropdown">
+                        <i className="close"></i>
+                        <i className="close"></i>
+                        <i className="close"></i>
+                    </li>
+                </section>    
             </nav>
         </div>
     )
 }
-
 export default ShopNav;

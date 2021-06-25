@@ -1,7 +1,7 @@
 .modelXpreview-container {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("modelx.jpg");
+	background-image: url("ModelX-D.jpg");
 	/* background-color: yellow; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -9,12 +9,12 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: left;
+	background-position: center center;
 	overflow: hidden;
 	scroll-snap-align: start;
 }
-@media (max-width: 635px) {
+@media (max-width: 747px) {
 	.modelXpreview-container {
-		background-image: url("modelX-mobile.jpg");
+		background-image: url("ModelX-M.jpg");
 	}
 }

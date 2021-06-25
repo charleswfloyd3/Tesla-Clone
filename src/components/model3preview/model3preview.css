@@ -9,12 +9,12 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: left;
+	background-position: center center;
 	/* background-position-x: -200px; */
 	overflow: hidden;
 	scroll-snap-align: start;
 }
-@media (max-width: 635px) {
+@media (max-width: 747px) {
 	.model3preview-container {
 		background-image: url("model3-mobile.jpg");
 	}
@@ -30,11 +30,11 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: left;
+	background-position: center center;
 	/* background-position-x: -200px; */
 	overflow: hidden;
 }
-@media (max-width: 635px) {
+@media (max-width: 747px) {
 	.model3pagecontainer {
 		background-image: url("model3page-mobile.jpg");
 	}

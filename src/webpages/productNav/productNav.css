@@ -55,10 +55,10 @@
 	margin-left: 1.75vw;
 }
 .hamburgerNavLanding {
-	margin-top: -6.25px;
-	margin-left: 1vw;
+	margin-top: -4px;
+	margin-left: 1.75vw;
 	font-weight: 900;
-	font-size: 22px;
+	font-size: 17px;
 }
 .landingDropdownNav {
 	display: none;
@@ -75,9 +75,9 @@
 		float: right;
 	}
 	.hamburgerNavLandingDropdown {
-		font-size: 22px;
+		font-size: 18px;
 		margin-right: 1%;
-		margin-top: 12.5px;
+		margin-top: 12.25px;
 	}
 }
 .productNav li:hover {
