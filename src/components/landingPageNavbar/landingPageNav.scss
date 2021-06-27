@@ -36,10 +36,20 @@
 	font-weight: 500;
 	margin-left: -1vw;
 	margin-top: -17px;
+	// border: 2px solid black;
+	width: fit-content;
 }
 
-.navCenter li {
-	margin-left: 1.42vw;
+.navCenter-inner li {
+	// padding-top: 7px;
+	// padding-bottom: 7px;
+	// padding-left: 14px;
+	// padding-right: 14px;
+	// margin-top: -7px;
+	// border-radius: 12px;
+}
+.navCenter li:hover {
+	// background: rgb(209, 209, 209);
 }
 .navRight {
 	display: flex;
@@ -49,6 +59,7 @@
 	margin-top: -17px;
 	margin-right: -0.5vw;
 	font-family: GothamPro;
+	opacity: 0.9;
 }
 .navRight li {
 }
