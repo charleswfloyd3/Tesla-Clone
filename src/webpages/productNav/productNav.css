@@ -54,14 +54,12 @@
 .tslaAccountBtn {
 	margin-left: 1.75vw;
 }
-.hamburgerNavLanding {
-	margin-top: -4px;
-	margin-left: 1.75vw;
-	font-weight: 900;
-	font-size: 17px;
-}
+
 .landingDropdownNav {
 	display: none;
+}
+.menuBtn {
+	margin-left: 1.75vw;
 }
 @media (max-width: 1201px) {
 	.navCenter {
@@ -69,15 +67,6 @@
 	}
 	.navRight {
 		display: none;
-	}
-	.landingDropdownNav {
-		display: block;
-		float: right;
-	}
-	.hamburgerNavLandingDropdown {
-		font-size: 18px;
-		margin-right: 1%;
-		margin-top: 12.25px;
 	}
 }
 .productNav li:hover {

@@ -9,7 +9,6 @@ const LandingPageNavbar = () => {
     let product2 = React.useRef(null)
     let product3 = React.useRef(null)
     let product4 = React.useRef(null)
-    const [mobileHamburgerStatus, setmobileHamburgerStatus] = useState('close')
     const [sidebarMenu, setsidebarMenu] = useState("sidebarMenu")
     const modelSCounter = useSelector(state => state)
     const dispatch = useDispatch()
@@ -51,42 +50,36 @@ const LandingPageNavbar = () => {
                 <section className="navRight">
                     <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">Shop</Link></li>
                     <li className="tslaAccountBtn"><a style={{"color": "inherit", "text-decoration": "none"}}href="https://github.com/charleswfloyd3/Tesla-Clone" target="_blank" rel="noreferrer">Telsa Clone</a></li>
-                        <li className="burgerMenu-container"  onClick={() =>{if(mobileHamburgerStatus === "close"){setmobileHamburgerStatus('open')
-                    setsidebarMenu('sidebarMenuVisible')}else{setmobileHamburgerStatus('close')
+                        <li className="menuBtn" onClick={() =>{if(sidebarMenu === "sidebarMenu"){
+                    setsidebarMenu('sidebarMenuVisible')}else{
                     setsidebarMenu("sidebarMenu")}}}>
-                            <i className={mobileHamburgerStatus}></i>
-                            <i className={mobileHamburgerStatus}></i>
-                            <i className={mobileHamburgerStatus}></i>
-
+                           Menu
                         </li>
                 </section>
-                <section className="landingDropdownNav">
-         
-                    <div className="burgerMenu-container-mobile" onClick={() =>{if(mobileHamburgerStatus === "close"){setmobileHamburgerStatus('open') 
-                    setsidebarMenu("sidebarMenuVisible")}else{setmobileHamburgerStatus('close')
+                <li className="menuBtnMobile" onClick={() =>{if(sidebarMenu === "sidebarMenu"){
+                    setsidebarMenu('sidebarMenuVisible')}else{
                     setsidebarMenu("sidebarMenu")}}}>
-                        <i className={mobileHamburgerStatus}></i>
-                        <i className={mobileHamburgerStatus}></i>
-                        <i className={mobileHamburgerStatus}></i>
-
-                    </div>
-            </section>
+                           Menu
+                </li>               
             <section className={sidebarMenu}>
-                <li id="firstItemSidebar">EXISTING INVENTORY</li>
-                <li>USED INVENTORY</li>
-                <li>TRADE-IN</li>
-                <li>CYBERTRUCK</li>
-                <li>ROADSTER</li>
-                <li>SEMI</li>
-                <li>CHARGING</li>
-                <li>POWERWALL</li>
-                <li>COMMERCIAL SOLAR</li>
-                <li>TEST DRIVE</li>
-                <li>FIND US</li>
-                <li>SUPPORT</li>
-                <li>UNITED STATES</li>
-
-            </section>    
+                <div className="sidebarContainer">
+                    <p className="xBtn" onClick={()=>{setsidebarMenu("sidebarMenu")}}>&#10006;</p>
+                    <li id="firstItemSidebar">Existing Inventory</li>
+                    <li>Used Inventory</li>
+                    <li>Trade-In</li>
+                    <li>Cybertruck</li>
+                    <li>Roadster</li>
+                    <li>Semi</li>
+                    <li>Charging</li>
+                    <li>Powerwall</li>
+                    <li>Commercial Energy</li>
+                    <li>Utilities</li>
+                    <li>Find Us</li>
+                    <li>Support</li>
+                    <li>United States</li>
+                </div>
+            </section>
+    
             </nav>
         </div>
     )

@@ -33,13 +33,10 @@ const ProductNav = (props) => {
                 <section className="navRight" >
                     <li><Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/shop">Shop</Link></li>
                     <li className="tslaAccountBtn"><a style={{"color": "inherit", "text-decoration": "none"}}href="https://github.com/charleswfloyd3/Tesla-Clone" target="_blank" rel="noreferrer">Tesla Clone</a></li>
-                    <li className="hamburgerNavLanding" id="hamburgerNavLanding">&#9776;</li>
+                    <li className="menuBtn">Menu</li>
 
                 </section>
-                <section className="landingDropdownNav">
-                    <li className="hamburgerNavLandingDropdown" id="hamburgerNavLandingDropdown">&#9776;</li>
-
-                    </section>    
+  
             </nav>
         </div>
     )
